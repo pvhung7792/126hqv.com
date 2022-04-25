@@ -1,13 +1,20 @@
-<!-- font awesome 5 -->
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/css/fontawesome-all.min.css'; ?>">
-
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/css/bootstrap.min.css'; ?>">
-
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/css/main.css'; ?>">
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/css/responsive.css'; ?>">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700" rel="stylesheet">
-<link rel="stylesheet" href="<?php echo base_url() . 'assets/css/toastr.css' ?>">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/fontawesome-free/css/all.min.css') ?>">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css') ?>">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/icheck-bootstrap/icheck-bootstrap.min.css') ?>">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/jqvmap/jqvmap.min.css') ?>">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/dist/css/adminlte.min.css') ?>">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/overlayScrollbars/css/OverlayScrollbars.min.css') ?>">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/daterangepicker/daterangepicker.css') ?>">
+  <!-- summernote -->
+  <link rel="stylesheet" href="<?php echo base_url('assets/summernote/summernote-bs4.min.css') ?>">

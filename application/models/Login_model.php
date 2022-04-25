@@ -20,7 +20,7 @@ class Login_model extends CI_Model
         );
         $user = $this->db->get_where('users', $auth);
         if($user->num_rows() > 0) {
-            return $user;
+            return $user->row_array();
         }else{
             return false;
         }

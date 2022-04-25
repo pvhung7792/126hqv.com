@@ -8,14 +8,19 @@
     <?php include 'includes_top.php';?>
 </head>
 <body>
+    
 <?php
-    if($this->session->userdata('is_login') == 1){
-
-    }else{
-        include 'login/'.$page_name.'.php';
-    }
-
+    if($this->session->userdata('is_login') == 1):
+?>  <div class="wrapper">
+        <?php include 'header.php' ?>
+        <?php include 'navigation.php' ?>
+                    <!-- BEGIN PlACE PAGE CONTENT HERE -->
+        <?php include 'admin/'.$page_name.'.php';?>
+                    <!-- END PLACE PAGE CONTENT HERE -->
+    </div>
+<?php   
+    endif;
 	include 'footer.php';
-	?>
+?>
 </body>
 </html>
